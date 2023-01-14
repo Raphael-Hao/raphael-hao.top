@@ -23,7 +23,7 @@ h3,
 h4,
 h5 {
   font-family: 'Fira Sans', 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #36454f;
+  color: #00407c;
   font-weight: bold;
 }
 
@@ -51,7 +51,7 @@ h6 {
 }
 
 a {
-  color: #36454f;
+  color: #00407c;
   text-decoration: none;
   border-bottom: dotted 1px #A1A3A1;
 }
@@ -68,7 +68,7 @@ hr {
 }
 
 blockquote {
-  color: #36454f;
+  color: #00407c;
   background: #e9e9e9;
   border-left: 10px solid #ccc;
   margin: 1.5em 10px;
@@ -79,7 +79,7 @@ blockquote {
 }
 
 blockquote p {
-  color: #36454f;
+  color: #00407c;
   display: inline;
 }
 
@@ -293,12 +293,12 @@ a.badge.badge-green {
 }
 
 div.quarto-about-trestles .about-entity .about-link:hover {
-  background-color: #36454f;
+  background-color: #00407c;
   color: #ebebeb;
 }
 
 .quarto-category:hover, .listing-category:hover {
-  background-color: #36454f;
+  background-color: #00407c;
   color: #ebebeb !important;
   opacity: .6;
 }
