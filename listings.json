@@ -1,0 +1,32 @@
+[
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/radioactivity.html"
+    ]
+  },
+  {
+    "listing": "/publications/index.html",
+    "items": [
+      "/publications/brainstorm/index.html",
+      "/publications/aodos/index.html",
+      "/publications/ispa/index.html",
+      "/publications/dvabatch/index.html",
+      "/publications/pame/index.html",
+      "/publications/tacker/index.html",
+      "/publications/abacus/index.html",
+      "/publications/plasticine/index.html",
+      "/publications/claius/index.html",
+      "/publications/e2bird/index.html",
+      "/publications/coda/index.html",
+      "/publications/ebird/index.html",
+      "/publications/laius/index.html"
+    ]
+  },
+  {
+    "listing": "/talks/index.html",
+    "items": [
+      "/talks/french_academy_1901.html"
+    ]
+  }
+]

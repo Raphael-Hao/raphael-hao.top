@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>SystemSight</title>
+<link>https://raphael-hao.top/blog/index.html</link>
+<atom:link href="https://raphael-hao.top/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>Blog posts by Weihao Cui</description>
+<generator>quarto-1.2.313</generator>
+<lastBuildDate>Sat, 06 Sep 1902 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>My xray experiments</title>
+  <link>https://raphael-hao.top/blog/radioactivity.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I’ve been playing with uranium rays …</p>
+
+
+
+ ]]></description>
+  <category>physics</category>
+  <category>chemistry</category>
+  <category>radiation</category>
+  <guid>https://raphael-hao.top/blog/radioactivity.html</guid>
+  <pubDate>Sat, 06 Sep 1902 16:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
