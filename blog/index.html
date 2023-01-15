@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-categories"],
     };
@@ -159,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Topics</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="chemistry"><span class="quarto-category-count category-cloud-10">chemistry</span></div><div class="category" data-category="physics"><span class="quarto-category-count category-cloud-10">physics</span></div><div class="category" data-category="radiation"><span class="quarto-category-count category-cloud-10">radiation</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Topics</h5><div class="quarto-listing-category category-cloud"></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -187,63 +187,13 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-     </select>
-  </div>
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="physics,chemistry,radiation" data-listing-date-sort="-2124432000000" data-listing-file-modified-sort="1673659117488" data-listing-reading-time-sort="0.035">
-<div class="body">
-<a href="../blog/radioactivity.html">
-<h3 class="no-anchor listing-title">
-My xray experiments
-</h3>
-<div class="listing-subtitle">
 
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('physics'); return false;">
-physics
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('chemistry'); return false;">
-chemistry
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('radiation'); return false;">
-radiation
-</div>
-</div>
-<a href="../blog/radioactivity.html">
-<div class="listing-description">
-I’ve been playing with uranium rays …
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../blog/radioactivity.html">
-<div class="listing-date">
-7 September 1902
-</div>
-</a>
-</div>
-</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
