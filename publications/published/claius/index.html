@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Weihao Cui, Han Zhao, Quan Chen, Hao Wei, Zirui Li, Deze Zeng, Chao Li, Minyi Guo.">
-<meta name="dcterms.date" content="2022-07-12">
+<meta name="author" content="Wei Zhang, Quan Chen, Ningxin Zheng, Weihao Cui, Kaihua Fu, Minyi Guo.">
+<meta name="dcterms.date" content="2021-03-08">
 
-<title>Weihao Cui - DVABatch: Diversity-aware Multi-Entry Multi-Exit Batching for Efficient Processing of DNN Services on GPUs</title>
+<title>Weihao Cui - Toward QoS-Awareness and Improved Utilization of Spatial Multitasking GPUs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,23 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../favicon.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../favicon.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,8 +66,8 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
 
-<link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Weihao Cui - DVABatch: Diversity-aware Multi-Entry Multi-Exit Batching for Efficient Processing of DNN Services on GPUs">
+<link rel="stylesheet" href="../../../styles.css">
+<meta property="og:title" content="Weihao Cui - Toward QoS-Awareness and Improved Utilization of Spatial Multitasking GPUs">
 <meta property="og:site-name" content="Weihao Cui">
 </head>
 
@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Weihao Cui</span>
     </a>
   </div>
@@ -88,19 +88,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../publications/index.html">
+    <a class="nav-link" href="../../../publications/index.html">
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../projects/index.html">
+    <a class="nav-link" href="../../../projects/index.html">
  <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blog/index.html">
+    <a class="nav-link" href="../../../blog/index.html">
  <span class="menu-text">SystemSight</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about/index.html">
+    <a class="nav-link" href="../../../about/index.html">
  <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -121,9 +121,9 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">DVABatch: Diversity-aware Multi-Entry Multi-Exit Batching for Efficient Processing of DNN Services on GPUs</h1>
+<h1 class="title">Toward QoS-Awareness and Improved Utilization of Spatial Multitasking GPUs</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Conference</div>
+    <div class="quarto-category">Journal</div>
   </div>
   </div>
 
@@ -134,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
-            <p><b>Weihao Cui</b>, Han Zhao, Quan Chen, Hao Wei, Zirui Li, Deze Zeng, Chao Li, Minyi Guo. 
+            <p>Wei Zhang, Quan Chen, Ningxin Zheng, <b>Weihao Cui</b>, Kaihua Fu, Minyi Guo. 
       </p>
           </div>
   </div>
@@ -142,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">12 July 2022</p>
+      <p class="date">8 March 2021</p>
     </div>
   </div>
   
@@ -150,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="quarto-title-meta-heading">Publication details</div>
     <div class="quarto-title-meta-contents">
       <p class="date">
-                <b>ATC</b>
+                <b>TC</b>
               </p>
     </div>
   </div>
@@ -160,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="quarto-title-meta-contents">
       <p class="date" style="color: #fff !important;">
                                           
-      <a href="../../papers/dvabatch.pdf" class="badge badge badge-red"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i>&nbsp;pdf</a>
+      <a href="../../../papers/claius.pdf" class="badge badge badge-red"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i>&nbsp;pdf</a>
       
       
       

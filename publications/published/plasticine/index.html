@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Wei Zhang, Weihao Cui, Kaihua Fu, Quan Chen, Daniel Edward Mawhirter, Bo Wu, Chao Li, Minyi Guo.">
-<meta name="dcterms.date" content="2019-06-26">
+<meta name="author" content="Han Zhao, Weihao Cui , Quan Chen, Jieru Zhao, Jingwen Leng, Minyi Guo.">
+<meta name="dcterms.date" content="2021-10-24">
 
-<title>Weihao Cui - Laius: Towards Latency Awareness and Improved Utilization of Spatial Multitasking Accelerators in Datacenters</title>
+<title>Weihao Cui - Exploiting Intra-SM Parallelism in GPUs via Persistent and Elastic Blocks</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,23 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../favicon.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../favicon.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,8 +66,8 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
 
-<link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Weihao Cui - Laius: Towards Latency Awareness and Improved Utilization of Spatial Multitasking Accelerators in Datacenters">
+<link rel="stylesheet" href="../../../styles.css">
+<meta property="og:title" content="Weihao Cui - Exploiting Intra-SM Parallelism in GPUs via Persistent and Elastic Blocks">
 <meta property="og:site-name" content="Weihao Cui">
 </head>
 
@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Weihao Cui</span>
     </a>
   </div>
@@ -88,19 +88,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../publications/index.html">
+    <a class="nav-link" href="../../../publications/index.html">
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../projects/index.html">
+    <a class="nav-link" href="../../../projects/index.html">
  <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blog/index.html">
+    <a class="nav-link" href="../../../blog/index.html">
  <span class="menu-text">SystemSight</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about/index.html">
+    <a class="nav-link" href="../../../about/index.html">
  <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -121,7 +121,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Laius: Towards Latency Awareness and Improved Utilization of Spatial Multitasking Accelerators in Datacenters</h1>
+<h1 class="title">Exploiting Intra-SM Parallelism in GPUs via Persistent and Elastic Blocks</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Conference</div>
   </div>
@@ -134,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
-            <p>Wei Zhang, <b>Weihao Cui</b>, Kaihua Fu, Quan Chen, Daniel Edward Mawhirter, Bo Wu, Chao Li, Minyi Guo. 
+            <p>Han Zhao, <b>Weihao Cui </b>, Quan Chen, Jieru Zhao, Jingwen Leng, Minyi Guo. 
       </p>
           </div>
   </div>
@@ -142,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">26 June 2019</p>
+      <p class="date">24 October 2021</p>
     </div>
   </div>
   
@@ -150,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="quarto-title-meta-heading">Publication details</div>
     <div class="quarto-title-meta-contents">
       <p class="date">
-                <b>ICS</b>
+                <b>ICCD</b>
               </p>
     </div>
   </div>
@@ -160,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="quarto-title-meta-contents">
       <p class="date" style="color: #fff !important;">
                                           
-      <a href="../../papers/laius.pdf" class="badge badge badge-red"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i>&nbsp;pdf</a>
+      <a href="../../../papers/plasticine.pdf" class="badge badge badge-red"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i>&nbsp;pdf</a>
       
       
       
