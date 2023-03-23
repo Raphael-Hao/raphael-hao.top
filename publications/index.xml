@@ -9,8 +9,24 @@
 <link>https://raphael-hao.top/publications/index.html</link>
 <atom:link href="https://raphael-hao.top/publications/index.xml" rel="self" type="application/rss+xml"/>
 <description>Working and published papers by Weihao Cui</description>
-<generator>quarto-1.2.313</generator>
-<lastBuildDate>Tue, 11 Oct 2022 16:00:00 GMT</lastBuildDate>
+<generator>quarto-1.2.475</generator>
+<lastBuildDate>Sun, 09 Jul 2023 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>Optimizing Dynamic Neural Networks with Brainstorm</title>
+  <dc:creator>&lt;b&gt;Weihao Cui&lt;/b&gt;, Zhenhua Han, Lingji Ouyang, Yichuan Wang, Ningxin Zheng, Lingxiao Ma, Yuqing Yang, Fan Yang, Jilong Xue, Lili Qiu, Lidong Zhou, Quan Chen, Haisheng Tan, Minyi Guo.</dc:creator>
+  <link>https://raphael-hao.top/publications/published/brainstorm/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+ ]]></description>
+  <category>Conference</category>
+  <guid>https://raphael-hao.top/publications/published/brainstorm/index.html</guid>
+  <pubDate>Sun, 09 Jul 2023 16:00:00 GMT</pubDate>
+</item>
 <item>
   <title>ISPA: Exploiting Intra-SM Parallelism in GPUs via Fine-grained Resource Management</title>
   <dc:creator>Han Zhao, &lt;b&gt;Weihao Cui &lt;/b&gt;, Quan Chen, Minyi Guo.</dc:creator>
