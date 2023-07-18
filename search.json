@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "About me",
+    "objectID": "talks/index.html",
+    "href": "talks/index.html",
+    "title": "Talks I’ve given",
     "section": "",
-    "text": "About me\nSome more detail about who I am and what I do."
+    "text": "Talks I’ve given\n\n\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nVenue\n\n\n\n\n\n\n30 Jun 1901\n\n\nAdventures with Uranium Rays\n\n\nFrench Academy, Paris\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Curriculum Vitae         Google Scholar"
   },
   {
     "objectID": "blog/index.html",
@@ -12,6 +19,13 @@
     "title": "SystemSight",
     "section": "",
     "text": "Thoughts on system research.\n  \n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About me",
+    "section": "",
+    "text": "About me\nSome more detail about who I am and what I do."
   },
   {
     "objectID": "index.html",
@@ -28,25 +42,11 @@
     "text": "Projects"
   },
   {
-    "objectID": "publications/index.html",
-    "href": "publications/index.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Curriculum Vitae         Google Scholar"
-  },
-  {
     "objectID": "talks/french_academy_1901.html",
     "href": "talks/french_academy_1901.html",
     "title": "Adventures with Uranium Rays",
     "section": "",
     "text": "Abstract here\n\nSlides\nembed html or pdf slides here\n\n\nVideo"
-  },
-  {
-    "objectID": "talks/index.html",
-    "href": "talks/index.html",
-    "title": "Talks I’ve given",
-    "section": "",
-    "text": "Talks I’ve given\n\n\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nVenue\n\n\n\n\n\n\n30 Jun 1901\n\n\nAdventures with Uranium Rays\n\n\nFrench Academy, Paris\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "teaching/index.html",

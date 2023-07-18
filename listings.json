@@ -1,7 +1,9 @@
 [
   {
-    "listing": "/blog/index.html",
-    "items": []
+    "listing": "/talks/index.html",
+    "items": [
+      "/talks/french_academy_1901.html"
+    ]
   },
   {
     "listing": "/publications/index.html",
@@ -21,9 +23,7 @@
     ]
   },
   {
-    "listing": "/talks/index.html",
-    "items": [
-      "/talks/french_academy_1901.html"
-    ]
+    "listing": "/blog/index.html",
+    "items": []
   }
 ]
