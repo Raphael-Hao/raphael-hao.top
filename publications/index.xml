@@ -10,7 +10,39 @@
 <atom:link href="https://raphael-hao.top/publications/index.xml" rel="self" type="application/rss+xml"/>
 <description>Working and published papers by Weihao Cui</description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Sun, 09 Jul 2023 16:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 29 Oct 2023 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>Maximizing the Utilization of GPUs Used by Cloud Gaming through Adaptive Co-location with Combo</title>
+  <dc:creator>Binghao Chen, Han Zhao, &lt;b&gt;Weihao Cui&lt;/b&gt;, Yifu He, Shulai Zhang, Quan Chen, Zijun Li, Minyi Guo.</dc:creator>
+  <link>https://raphael-hao.top/publications/published/combo/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+ ]]></description>
+  <category>Conference</category>
+  <guid>https://raphael-hao.top/publications/published/combo/index.html</guid>
+  <pubDate>Sun, 29 Oct 2023 16:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Improving Cluster Utilization through Adaptive Resource Management for DNN and CPU Jobs Co-location</title>
+  <dc:creator>Han Zhao, &lt;b&gt;Weihao Cui&lt;/b&gt;, Quan Chen, Jingwen Leng, Deze Zeng, Minyi Guo.</dc:creator>
+  <link>https://raphael-hao.top/publications/published/soda/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+ ]]></description>
+  <category>Conference</category>
+  <guid>https://raphael-hao.top/publications/published/soda/index.html</guid>
+  <pubDate>Wed, 09 Aug 2023 16:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Optimizing Dynamic Neural Networks with Brainstorm</title>
   <dc:creator>&lt;b&gt;Weihao Cui&lt;/b&gt;, Zhenhua Han, Lingji Ouyang, Yichuan Wang, Ningxin Zheng, Lingxiao Ma, Yuqing Yang, Fan Yang, Jilong Xue, Lili Qiu, Lidong Zhou, Quan Chen, Haisheng Tan, Minyi Guo.</dc:creator>
@@ -26,6 +58,22 @@
   <category>Conference</category>
   <guid>https://raphael-hao.top/publications/published/brainstorm/index.html</guid>
   <pubDate>Sun, 09 Jul 2023 16:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>AdaptGear: Accelerating GNN Training via Adaptive Subgraph-Level Kernels on GPUs</title>
+  <dc:creator>Yangjie Zhou, Yaoxu Song, Jingwen Leng, Zihan Liu, &lt;b&gt;Weihao Cui&lt;/b&gt;, Zhendong Zhang, Cong Guo, Quan Chen, Li Li, Minyi Guo.</dc:creator>
+  <link>https://raphael-hao.top/publications/published/adaptgear/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+ ]]></description>
+  <category>Conference</category>
+  <guid>https://raphael-hao.top/publications/published/adaptgear/index.html</guid>
+  <pubDate>Fri, 26 May 2023 16:00:00 GMT</pubDate>
 </item>
 <item>
   <title>ISPA: Exploiting Intra-SM Parallelism in GPUs via Fine-grained Resource Management</title>

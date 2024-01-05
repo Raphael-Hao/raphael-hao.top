@@ -1,14 +1,15 @@
 [
   {
-    "listing": "/talks/index.html",
-    "items": [
-      "/talks/french_academy_1901.html"
-    ]
+    "listing": "/blog/index.html",
+    "items": []
   },
   {
     "listing": "/publications/index.html",
     "items": [
+      "/publications/published/combo/index.html",
+      "/publications/published/soda/index.html",
       "/publications/published/brainstorm/index.html",
+      "/publications/published/adaptgear/index.html",
       "/publications/published/ispa/index.html",
       "/publications/published/dvabatch/index.html",
       "/publications/published/pame/index.html",
@@ -23,7 +24,9 @@
     ]
   },
   {
-    "listing": "/blog/index.html",
-    "items": []
+    "listing": "/talks/index.html",
+    "items": [
+      "/talks/french_academy_1901.html"
+    ]
   }
 ]
