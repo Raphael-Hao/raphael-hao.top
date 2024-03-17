@@ -1,9 +1,5 @@
 [
   {
-    "listing": "/blog/index.html",
-    "items": []
-  },
-  {
     "listing": "/publications/index.html",
     "items": [
       "/publications/published/combo/index.html",
@@ -21,12 +17,6 @@
       "/publications/published/coda/index.html",
       "/publications/published/ebird/index.html",
       "/publications/published/laius/index.html"
-    ]
-  },
-  {
-    "listing": "/talks/index.html",
-    "items": [
-      "/talks/french_academy_1901.html"
     ]
   }
 ]

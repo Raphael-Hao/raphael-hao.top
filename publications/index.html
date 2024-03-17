@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -52,7 +52,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -61,6 +67,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -76,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-date-format','listing-format','listing-resources','listing-execute','listing-language','listing-sidebar','listing-author-title','listing-author','listing-date','listing-status','listing-title','listing-categories','listing-details','listing-level','listing-tags','listing-file','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-date-format','listing-format','listing-resources','listing-execute','listing-language','listing-sidebar','listing-author-title','listing-author','listing-date','listing-status','listing-title','listing-categories','listing-details','listing-level','listing-tags','listing-file','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author","listing-details"],
     };
@@ -117,18 +124,18 @@ ul.task-list li input[type="checkbox"] {
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
 
 <link rel="stylesheet" href="../styles.css">
-<link rel="alternate" type="application/rss+xml" title="Publications by Weihao Cui" href="index.xml"><meta property="og:title" content="Weihao Cui - Publications">
+<link rel="alternate" type="application/rss+xml" title="Publications by Weihao Cui" href="index.xml" data-external="1"><meta property="og:title" content="Weihao Cui - Publications">
 <meta property="og:description" content="">
-<meta property="og:site-name" content="Weihao Cui">
+<meta property="og:site_name" content="Weihao Cui">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Weihao Cui</span>
     </a>
@@ -140,25 +147,21 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../publications/index.html" rel="" target="" aria-current="page">
- <span class="menu-text">Publications</span></a>
+    <a class="nav-link active" href="../publications/index.html" aria-current="page"> 
+<span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects/index.html" rel="" target="">
- <span class="menu-text">Projects</span></a>
+    <a class="nav-link" href="../projects/index.html"> 
+<span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/index.html" rel="" target="">
- <span class="menu-text">SystemSight</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../about/index.html" rel="" target="">
- <span class="menu-text">About</span></a>
+    <a class="nav-link" href="../about/index.html"> 
+<span class="menu-text">About</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -202,7 +205,8 @@ ul.task-list li input[type="checkbox"] {
     </div>
 </div>
 <ol class="list" reversed="">
-    <li data-index="0" data-categories="Conference" data-listing-date-sort="1698595200000" data-listing-file-modified-sort="1704428124499" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+  
+    <li data-index="0" data-categories="Conference" data-listing-date-sort="1698595200000" data-listing-file-modified-sort="1704428124499" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
       <a href="../publications/published/combo/index.html">
         <span class="listing-author">
           Binghao Chen, Han Zhao, <b>Weihao Cui</b>, Yifu He, Shulai Zhang, Quan Chen, Zijun Li, Minyi Guo.
@@ -210,16 +214,29 @@ ul.task-list li input[type="checkbox"] {
         <span class="listing-title">
           Maximizing the Utilization of GPUs Used by Cloud Gaming through Adaptive Co-location with Combo
         </span>.(
+        
           <span class="listing-details" style="color:#696969">
             <b>SoCC</b>
           </span>
           <span class="listing-date" style="color:#696969">
             <b>2023</b>
           </span>).
+          
       </a>
+      
+          
+              
+                  
+                      
+                          
+                              
                                   <a href="../papers/combo.pdf" class="badge badge-small badge-red">pdf</a>
+                                    
+                                      
+                                          
     </li>
-    <li data-index="1" data-categories="Journal" data-listing-date-sort="1691596800000" data-listing-file-modified-sort="1704430728238" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    
+    <li data-index="1" data-categories="Journal" data-listing-date-sort="1691596800000" data-listing-file-modified-sort="1704430728238" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
       <a href="../publications/published/soda/index.html">
         <span class="listing-author">
           Han Zhao, <b>Weihao Cui</b>, Quan Chen, Jingwen Leng, Deze Zeng, Minyi Guo.
@@ -227,16 +244,29 @@ ul.task-list li input[type="checkbox"] {
         <span class="listing-title">
           Improving Cluster Utilization through Adaptive Resource Management for DNN and CPU Jobs Co-location
         </span>.(
+        
           <span class="listing-details" style="color:#696969">
             <b>TC</b>
           </span>
           <span class="listing-date" style="color:#696969">
             <b>2023</b>
           </span>).
+          
       </a>
+      
+          
+              
+                  
+                      
+                          
+                              
                                   <a href="../papers/soda.pdf" class="badge badge-small badge-red">pdf</a>
+                                    
+                                      
+                                          
     </li>
-    <li data-index="2" data-categories="Conference" data-listing-date-sort="1688918400000" data-listing-file-modified-sort="1689666373000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    
+    <li data-index="2" data-categories="Conference" data-listing-date-sort="1688918400000" data-listing-file-modified-sort="1689666373000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
       <a href="../publications/published/brainstorm/index.html">
         <span class="listing-author">
           <b>Weihao Cui</b>, Zhenhua Han, Lingji Ouyang, Yichuan Wang, Ningxin Zheng, Lingxiao Ma, Yuqing Yang, Fan Yang, Jilong Xue, Lili Qiu, Lidong Zhou, Quan Chen, Haisheng Tan, Minyi Guo.
@@ -244,16 +274,29 @@ ul.task-list li input[type="checkbox"] {
         <span class="listing-title">
           Optimizing Dynamic Neural Networks with Brainstorm
         </span>.(
+        
           <span class="listing-details" style="color:#696969">
             <b>OSDI</b>
           </span>
           <span class="listing-date" style="color:#696969">
             <b>2023</b>
           </span>).
+          
       </a>
+      
+          
+              
+                  
+                      
+                          
+                              
                                   <a href="../papers/brainstorm.pdf" class="badge badge-small badge-red">pdf</a>
+                                    
+                                      
+                                          
     </li>
-    <li data-index="3" data-categories="Conference" data-listing-date-sort="1685116800000" data-listing-file-modified-sort="1704428579383" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    
+    <li data-index="3" data-categories="Conference" data-listing-date-sort="1685116800000" data-listing-file-modified-sort="1704428579383" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
       <a href="../publications/published/adaptgear/index.html">
         <span class="listing-author">
           Yangjie Zhou, Yaoxu Song, Jingwen Leng, Zihan Liu, <b>Weihao Cui</b>, Zhendong Zhang, Cong Guo, Quan Chen, Li Li, Minyi Guo.
@@ -261,16 +304,29 @@ ul.task-list li input[type="checkbox"] {
         <span class="listing-title">
           AdaptGear: Accelerating GNN Training via Adaptive Subgraph-Level Kernels on GPUs
         </span>.(
+        
           <span class="listing-details" style="color:#696969">
             <b>CF</b>
           </span>
           <span class="listing-date" style="color:#696969">
             <b>2023</b>
           </span>).
+          
       </a>
+      
+          
+              
+                  
+                      
+                          
+                              
                                   <a href="../papers/adaptgear.pdf" class="badge badge-small badge-red">pdf</a>
+                                    
+                                      
+                                          
     </li>
-    <li data-index="4" data-categories="Journal" data-listing-date-sort="1665504000000" data-listing-file-modified-sort="1673796201000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    
+    <li data-index="4" data-categories="Journal" data-listing-date-sort="1665504000000" data-listing-file-modified-sort="1673796201000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
       <a href="../publications/published/ispa/index.html">
         <span class="listing-author">
           Han Zhao, <b>Weihao Cui </b>, Quan Chen, Minyi Guo.
@@ -278,16 +334,29 @@ ul.task-list li input[type="checkbox"] {
         <span class="listing-title">
           ISPA: Exploiting Intra-SM Parallelism in GPUs via Fine-grained Resource Management
         </span>.(
+        
           <span class="listing-details" style="color:#696969">
             <b>TC</b> 
           </span>
           <span class="listing-date" style="color:#696969">
             <b>2022</b>
           </span>).
+          
       </a>
+      
+          
+              
+                  
+                      
+                          
+                              
                                   <a href="../papers/ispa.pdf" class="badge badge-small badge-red">pdf</a>
+                                    
+                                      
+                                          
     </li>
-    <li data-index="5" data-categories="Conference" data-listing-date-sort="1657555200000" data-listing-file-modified-sort="1673796201000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    
+    <li data-index="5" data-categories="Conference" data-listing-date-sort="1657555200000" data-listing-file-modified-sort="1673796201000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
       <a href="../publications/published/dvabatch/index.html">
         <span class="listing-author">
           <b>Weihao Cui</b>, Han Zhao, Quan Chen, Hao Wei, Zirui Li, Deze Zeng, Chao Li, Minyi Guo.
@@ -295,16 +364,29 @@ ul.task-list li input[type="checkbox"] {
         <span class="listing-title">
           DVABatch: Diversity-aware Multi-Entry Multi-Exit Batching for Efficient Processing of DNN Services on GPUs
         </span>.(
+        
           <span class="listing-details" style="color:#696969">
             <b>ATC</b>
           </span>
           <span class="listing-date" style="color:#696969">
             <b>2022</b>
           </span>).
+          
       </a>
+      
+          
+              
+                  
+                      
+                          
+                              
                                   <a href="../papers/dvabatch.pdf" class="badge badge-small badge-red">pdf</a>
+                                    
+                                      
+                                          
     </li>
-    <li data-index="6" data-categories="Conference" data-listing-date-sort="1656345600000" data-listing-file-modified-sort="1673796201000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    
+    <li data-index="6" data-categories="Conference" data-listing-date-sort="1656345600000" data-listing-file-modified-sort="1673796201000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
       <a href="../publications/published/pame/index.html">
         <span class="listing-author">
           Shulai Zhang, <b>Weihao Cui</b>, Quan Chen, Zhengnian Zhang, Yue Guan, Jingwen Leng, Chao Li, Minyi Guo.
@@ -312,16 +394,29 @@ ul.task-list li input[type="checkbox"] {
         <span class="listing-title">
           PAME: Precision-Aware Multi-Exit DNN Serving for Reducing Latencies of Batched Inferences
         </span>.(
+        
           <span class="listing-details" style="color:#696969">
             <b>ICS</b>
           </span>
           <span class="listing-date" style="color:#696969">
             <b>2022</b>
           </span>).
+          
       </a>
+      
+          
+              
+                  
+                      
+                          
+                              
                                   <a href="../papers/pame.pdf" class="badge badge-small badge-red">pdf</a>
+                                    
+                                      
+                                          
     </li>
-    <li data-index="7" data-categories="Conference" data-listing-date-sort="1648828800000" data-listing-file-modified-sort="1673796172000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    
+    <li data-index="7" data-categories="Conference" data-listing-date-sort="1648828800000" data-listing-file-modified-sort="1673796172000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
       <a href="../publications/published/tacker/index.html">
         <span class="listing-author">
           Han Zhao, <b>Weihao Cui</b>, Quan Chen, Youtao Zhang, Yanchao Lu, Chao Li, Jingwen Leng, Minyi Guo.
@@ -329,16 +424,29 @@ ul.task-list li input[type="checkbox"] {
         <span class="listing-title">
           Tacker: Tensor-CUDA Core Kernel Fusion for Improving the GPU Utilization while Ensuring QoS
         </span>.(
+        
           <span class="listing-details" style="color:#696969">
             <b>HPCA</b>
           </span>
           <span class="listing-date" style="color:#696969">
             <b>2022</b>
           </span>).
+          
       </a>
+      
+          
+              
+                  
+                      
+                          
+                              
                                   <a href="../papers/tacker.pdf" class="badge badge-small badge-red">pdf</a>
+                                    
+                                      
+                                          
     </li>
-    <li data-index="8" data-categories="Conference" data-listing-date-sort="1636819200000" data-listing-file-modified-sort="1680584191000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    
+    <li data-index="8" data-categories="Conference" data-listing-date-sort="1636819200000" data-listing-file-modified-sort="1680584191000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
       <a href="../publications/published/abacus/index.html">
         <span class="listing-author">
           <b>Weihao Cui</b>, Han Zhao, Quan Chen, Ningxin Zheng, Jingwen Leng, Jieru Zhao, Zhuo Song, Tao Ma, Yong Yang, Chao Li, Minyi Guo.
@@ -346,16 +454,29 @@ ul.task-list li input[type="checkbox"] {
         <span class="listing-title">
           Enable Simultaneous DNN Services Based on Deterministic Operator Overlap and Precise Latency Prediction
         </span>.(
+        
           <span class="listing-details" style="color:#696969">
             <b>SC</b>
           </span>
           <span class="listing-date" style="color:#696969">
             <b>2021</b>
           </span>).
+          
       </a>
+      
+          
+              
+                  
+                      
+                          
+                              
                                   <a href="../papers/abacus.pdf" class="badge badge-small badge-red">pdf</a>
+                                    
+                                      
+                                          
     </li>
-    <li data-index="9" data-categories="Conference" data-listing-date-sort="1635004800000" data-listing-file-modified-sort="1673796201000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    
+    <li data-index="9" data-categories="Conference" data-listing-date-sort="1635004800000" data-listing-file-modified-sort="1673796201000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
       <a href="../publications/published/plasticine/index.html">
         <span class="listing-author">
           Han Zhao, <b>Weihao Cui </b>, Quan Chen, Jieru Zhao, Jingwen Leng, Minyi Guo.
@@ -363,16 +484,29 @@ ul.task-list li input[type="checkbox"] {
         <span class="listing-title">
           Exploiting Intra-SM Parallelism in GPUs via Persistent and Elastic Blocks
         </span>.(
+        
           <span class="listing-details" style="color:#696969">
             <b>ICCD</b> 
           </span>
           <span class="listing-date" style="color:#696969">
             <b>2021</b>
           </span>).
+          
       </a>
+      
+          
+              
+                  
+                      
+                          
+                              
                                   <a href="../papers/plasticine.pdf" class="badge badge-small badge-red">pdf</a>
+                                    
+                                      
+                                          
     </li>
-    <li data-index="10" data-categories="Journal" data-listing-date-sort="1615132800000" data-listing-file-modified-sort="1673796201000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    
+    <li data-index="10" data-categories="Journal" data-listing-date-sort="1615132800000" data-listing-file-modified-sort="1673796201000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
       <a href="../publications/published/claius/index.html">
         <span class="listing-author">
           Wei Zhang, Quan Chen, Ningxin Zheng, <b>Weihao Cui</b>, Kaihua Fu, Minyi Guo.
@@ -380,16 +514,29 @@ ul.task-list li input[type="checkbox"] {
         <span class="listing-title">
           Toward QoS-Awareness and Improved Utilization of Spatial Multitasking GPUs
         </span>.(
+        
           <span class="listing-details" style="color:#696969">
             <b>TC</b> 
           </span>
           <span class="listing-date" style="color:#696969">
             <b>2021</b>
           </span>).
+          
       </a>
+      
+          
+              
+                  
+                      
+                          
+                              
                                   <a href="../papers/claius.pdf" class="badge badge-small badge-red">pdf</a>
+                                    
+                                      
+                                          
     </li>
-    <li data-index="11" data-categories="Journal" data-listing-date-sort="1609084800000" data-listing-file-modified-sort="1680584585000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    
+    <li data-index="11" data-categories="Journal" data-listing-date-sort="1609084800000" data-listing-file-modified-sort="1680584585000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
       <a href="../publications/published/e2bird/index.html">
         <span class="listing-author">
           <b>Weihao Cui</b>, Quan Chen, Han Zhao, Mengze Wei, Xiaoxin Tang, and Minyi Guo.
@@ -397,16 +544,29 @@ ul.task-list li input[type="checkbox"] {
         <span class="listing-title">
           E2bird: Enhanced Elastic Batch for Improving Responsiveness and Throughput of Deep Learning Services
         </span>.(
+        
           <span class="listing-details" style="color:#696969">
             <b>TPDS</b> 
           </span>
           <span class="listing-date" style="color:#696969">
             <b>2020</b>
           </span>).
+          
       </a>
+      
+          
+              
+                  
+                      
+                          
+                              
                                   <a href="../papers/e2bird.pdf" class="badge badge-small badge-red">pdf</a>
+                                    
+                                      
+                                          
     </li>
-    <li data-index="12" data-categories="Conference" data-listing-date-sort="1604160000000" data-listing-file-modified-sort="1673796201000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    
+    <li data-index="12" data-categories="Conference" data-listing-date-sort="1604160000000" data-listing-file-modified-sort="1673796201000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
       <a href="../publications/published/coda/index.html">
         <span class="listing-author">
           Han Zhao, <b>Weihao Cui</b>, Quan Chen, Jingwen Leng, Kai Yu, Deze Zeng, Chao Li, Minyi Guo.
@@ -414,16 +574,29 @@ ul.task-list li input[type="checkbox"] {
         <span class="listing-title">
           CODA: Improving Resource Utilization by Slimming and Co-locating DNN and CPU Jobs
         </span>.(
+        
           <span class="listing-details" style="color:#696969">
             <b>ICDCS</b>
           </span>
           <span class="listing-date" style="color:#696969">
             <b>2020</b>
           </span>).
+          
       </a>
+      
+          
+              
+                  
+                      
+                          
+                              
                                   <a href="../papers/coda.pdf" class="badge badge-small badge-red">pdf</a>
+                                    
+                                      
+                                          
     </li>
-    <li data-index="13" data-categories="Conference" data-listing-date-sort="1573920000000" data-listing-file-modified-sort="1673796201000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    
+    <li data-index="13" data-categories="Conference" data-listing-date-sort="1573920000000" data-listing-file-modified-sort="1673796201000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
       <a href="../publications/published/ebird/index.html">
         <span class="listing-author">
           <b>Weihao Cui</b>, Mengze Wei, Quan Chen, Xiaoxin Tang, Jingwen Leng, Li Li, Mingyi Guo.
@@ -431,16 +604,29 @@ ul.task-list li input[type="checkbox"] {
         <span class="listing-title">
           Ebird: Elastic Batch for Improving Responsiveness and Throughput of Deep Learning Services
         </span>.(
+        
           <span class="listing-details" style="color:#696969">
             <b>ICCD</b>
           </span>
           <span class="listing-date" style="color:#696969">
             <b>2019</b>
           </span>).
+          
       </a>
+      
+          
+              
+                  
+                      
+                          
+                              
                                   <a href="../papers/ebird.pdf" class="badge badge-small badge-red">pdf</a>
+                                    
+                                      
+                                          
     </li>
-    <li data-index="14" data-categories="Conference" data-listing-date-sort="1561478400000" data-listing-file-modified-sort="1673796201000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+    
+    <li data-index="14" data-categories="Conference" data-listing-date-sort="1561478400000" data-listing-file-modified-sort="1673796201000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
       <a href="../publications/published/laius/index.html">
         <span class="listing-author">
           Wei Zhang, <b>Weihao Cui</b>, Kaihua Fu, Quan Chen, Daniel Edward Mawhirter, Bo Wu, Chao Li, Minyi Guo.
@@ -448,15 +634,28 @@ ul.task-list li input[type="checkbox"] {
         <span class="listing-title">
           Laius: Towards Latency Awareness and Improved Utilization of Spatial Multitasking Accelerators in Datacenters
         </span>.(
+        
           <span class="listing-details" style="color:#696969">
             <b>ICS</b>
           </span>
           <span class="listing-date" style="color:#696969">
             <b>2019</b>
           </span>).
+          
       </a>
+      
+          
+              
+                  
+                      
+                          
+                              
                                   <a href="../papers/laius.pdf" class="badge badge-small badge-red">pdf</a>
+                                    
+                                      
+                                          
     </li>
+    
 </ol>
 
 <div class="listing-no-matching d-none">
@@ -542,10 +741,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/raphael-hao\.top");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -555,8 +771,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -568,7 +793,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -612,6 +960,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -637,6 +986,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -699,7 +1074,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Copyright 2023, Weihao Cui</div>   
+    <div class="nav-footer-left">
+<p>Copyright 2023, Weihao Cui</p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>

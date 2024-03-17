@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Publications by Weihao Cui</title>
-<link>https://raphael-hao.top/publications/index.html</link>
+<link>https://raphael-hao.top/publications/</link>
 <atom:link href="https://raphael-hao.top/publications/index.xml" rel="self" type="application/rss+xml"/>
 <description>Working and published papers by Weihao Cui</description>
-<generator>quarto-1.3.450</generator>
+<generator>quarto-1.4.551</generator>
 <lastBuildDate>Sun, 29 Oct 2023 16:00:00 GMT</lastBuildDate>
 <item>
   <title>Maximizing the Utilization of GPUs Used by Cloud Gaming through Adaptive Co-location with Combo</title>
   <dc:creator>Binghao Chen, Han Zhao, &lt;b&gt;Weihao Cui&lt;/b&gt;, Yifu He, Shulai Zhang, Quan Chen, Zijun Li, Minyi Guo.</dc:creator>
-  <link>https://raphael-hao.top/publications/published/combo/index.html</link>
+  <link>https://raphael-hao.top/publications/published/combo/</link>
   <description><![CDATA[ 
 
 
@@ -24,13 +24,13 @@
 
  ]]></description>
   <category>Conference</category>
-  <guid>https://raphael-hao.top/publications/published/combo/index.html</guid>
+  <guid>https://raphael-hao.top/publications/published/combo/</guid>
   <pubDate>Sun, 29 Oct 2023 16:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Improving Cluster Utilization through Adaptive Resource Management for DNN and CPU Jobs Co-location</title>
   <dc:creator>Han Zhao, &lt;b&gt;Weihao Cui&lt;/b&gt;, Quan Chen, Jingwen Leng, Deze Zeng, Minyi Guo.</dc:creator>
-  <link>https://raphael-hao.top/publications/published/soda/index.html</link>
+  <link>https://raphael-hao.top/publications/published/soda/</link>
   <description><![CDATA[ 
 
 
@@ -40,13 +40,13 @@
 
  ]]></description>
   <category>Journal</category>
-  <guid>https://raphael-hao.top/publications/published/soda/index.html</guid>
+  <guid>https://raphael-hao.top/publications/published/soda/</guid>
   <pubDate>Wed, 09 Aug 2023 16:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Optimizing Dynamic Neural Networks with Brainstorm</title>
   <dc:creator>&lt;b&gt;Weihao Cui&lt;/b&gt;, Zhenhua Han, Lingji Ouyang, Yichuan Wang, Ningxin Zheng, Lingxiao Ma, Yuqing Yang, Fan Yang, Jilong Xue, Lili Qiu, Lidong Zhou, Quan Chen, Haisheng Tan, Minyi Guo.</dc:creator>
-  <link>https://raphael-hao.top/publications/published/brainstorm/index.html</link>
+  <link>https://raphael-hao.top/publications/published/brainstorm/</link>
   <description><![CDATA[ 
 
 
@@ -56,13 +56,13 @@
 
  ]]></description>
   <category>Conference</category>
-  <guid>https://raphael-hao.top/publications/published/brainstorm/index.html</guid>
+  <guid>https://raphael-hao.top/publications/published/brainstorm/</guid>
   <pubDate>Sun, 09 Jul 2023 16:00:00 GMT</pubDate>
 </item>
 <item>
   <title>AdaptGear: Accelerating GNN Training via Adaptive Subgraph-Level Kernels on GPUs</title>
   <dc:creator>Yangjie Zhou, Yaoxu Song, Jingwen Leng, Zihan Liu, &lt;b&gt;Weihao Cui&lt;/b&gt;, Zhendong Zhang, Cong Guo, Quan Chen, Li Li, Minyi Guo.</dc:creator>
-  <link>https://raphael-hao.top/publications/published/adaptgear/index.html</link>
+  <link>https://raphael-hao.top/publications/published/adaptgear/</link>
   <description><![CDATA[ 
 
 
@@ -72,13 +72,13 @@
 
  ]]></description>
   <category>Conference</category>
-  <guid>https://raphael-hao.top/publications/published/adaptgear/index.html</guid>
+  <guid>https://raphael-hao.top/publications/published/adaptgear/</guid>
   <pubDate>Fri, 26 May 2023 16:00:00 GMT</pubDate>
 </item>
 <item>
   <title>ISPA: Exploiting Intra-SM Parallelism in GPUs via Fine-grained Resource Management</title>
   <dc:creator>Han Zhao, &lt;b&gt;Weihao Cui &lt;/b&gt;, Quan Chen, Minyi Guo.</dc:creator>
-  <link>https://raphael-hao.top/publications/published/ispa/index.html</link>
+  <link>https://raphael-hao.top/publications/published/ispa/</link>
   <description><![CDATA[ 
 
 
@@ -88,13 +88,13 @@
 
  ]]></description>
   <category>Journal</category>
-  <guid>https://raphael-hao.top/publications/published/ispa/index.html</guid>
+  <guid>https://raphael-hao.top/publications/published/ispa/</guid>
   <pubDate>Tue, 11 Oct 2022 16:00:00 GMT</pubDate>
 </item>
 <item>
   <title>DVABatch: Diversity-aware Multi-Entry Multi-Exit Batching for Efficient Processing of DNN Services on GPUs</title>
   <dc:creator>&lt;b&gt;Weihao Cui&lt;/b&gt;, Han Zhao, Quan Chen, Hao Wei, Zirui Li, Deze Zeng, Chao Li, Minyi Guo.</dc:creator>
-  <link>https://raphael-hao.top/publications/published/dvabatch/index.html</link>
+  <link>https://raphael-hao.top/publications/published/dvabatch/</link>
   <description><![CDATA[ 
 
 
@@ -104,13 +104,13 @@
 
  ]]></description>
   <category>Conference</category>
-  <guid>https://raphael-hao.top/publications/published/dvabatch/index.html</guid>
+  <guid>https://raphael-hao.top/publications/published/dvabatch/</guid>
   <pubDate>Mon, 11 Jul 2022 16:00:00 GMT</pubDate>
 </item>
 <item>
   <title>PAME: Precision-Aware Multi-Exit DNN Serving for Reducing Latencies of Batched Inferences</title>
   <dc:creator>Shulai Zhang, &lt;b&gt;Weihao Cui&lt;/b&gt;, Quan Chen, Zhengnian Zhang, Yue Guan, Jingwen Leng, Chao Li, Minyi Guo.</dc:creator>
-  <link>https://raphael-hao.top/publications/published/pame/index.html</link>
+  <link>https://raphael-hao.top/publications/published/pame/</link>
   <description><![CDATA[ 
 
 
@@ -120,13 +120,13 @@
 
  ]]></description>
   <category>Conference</category>
-  <guid>https://raphael-hao.top/publications/published/pame/index.html</guid>
+  <guid>https://raphael-hao.top/publications/published/pame/</guid>
   <pubDate>Mon, 27 Jun 2022 16:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Tacker: Tensor-CUDA Core Kernel Fusion for Improving the GPU Utilization while Ensuring QoS</title>
   <dc:creator>Han Zhao, &lt;b&gt;Weihao Cui&lt;/b&gt;, Quan Chen, Youtao Zhang, Yanchao Lu, Chao Li, Jingwen Leng, Minyi Guo.</dc:creator>
-  <link>https://raphael-hao.top/publications/published/tacker/index.html</link>
+  <link>https://raphael-hao.top/publications/published/tacker/</link>
   <description><![CDATA[ 
 
 
@@ -136,13 +136,13 @@
 
  ]]></description>
   <category>Conference</category>
-  <guid>https://raphael-hao.top/publications/published/tacker/index.html</guid>
+  <guid>https://raphael-hao.top/publications/published/tacker/</guid>
   <pubDate>Fri, 01 Apr 2022 16:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Enable Simultaneous DNN Services Based on Deterministic Operator Overlap and Precise Latency Prediction</title>
   <dc:creator>&lt;b&gt;Weihao Cui&lt;/b&gt;, Han Zhao, Quan Chen, Ningxin Zheng, Jingwen Leng, Jieru Zhao, Zhuo Song, Tao Ma, Yong Yang, Chao Li, Minyi Guo.</dc:creator>
-  <link>https://raphael-hao.top/publications/published/abacus/index.html</link>
+  <link>https://raphael-hao.top/publications/published/abacus/</link>
   <description><![CDATA[ 
 
 
@@ -152,13 +152,13 @@
 
  ]]></description>
   <category>Conference</category>
-  <guid>https://raphael-hao.top/publications/published/abacus/index.html</guid>
+  <guid>https://raphael-hao.top/publications/published/abacus/</guid>
   <pubDate>Sat, 13 Nov 2021 16:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Exploiting Intra-SM Parallelism in GPUs via Persistent and Elastic Blocks</title>
   <dc:creator>Han Zhao, &lt;b&gt;Weihao Cui &lt;/b&gt;, Quan Chen, Jieru Zhao, Jingwen Leng, Minyi Guo.</dc:creator>
-  <link>https://raphael-hao.top/publications/published/plasticine/index.html</link>
+  <link>https://raphael-hao.top/publications/published/plasticine/</link>
   <description><![CDATA[ 
 
 
@@ -168,13 +168,13 @@
 
  ]]></description>
   <category>Conference</category>
-  <guid>https://raphael-hao.top/publications/published/plasticine/index.html</guid>
+  <guid>https://raphael-hao.top/publications/published/plasticine/</guid>
   <pubDate>Sat, 23 Oct 2021 16:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Toward QoS-Awareness and Improved Utilization of Spatial Multitasking GPUs</title>
   <dc:creator>Wei Zhang, Quan Chen, Ningxin Zheng, &lt;b&gt;Weihao Cui&lt;/b&gt;, Kaihua Fu, Minyi Guo.</dc:creator>
-  <link>https://raphael-hao.top/publications/published/claius/index.html</link>
+  <link>https://raphael-hao.top/publications/published/claius/</link>
   <description><![CDATA[ 
 
 
@@ -184,13 +184,13 @@
 
  ]]></description>
   <category>Journal</category>
-  <guid>https://raphael-hao.top/publications/published/claius/index.html</guid>
+  <guid>https://raphael-hao.top/publications/published/claius/</guid>
   <pubDate>Sun, 07 Mar 2021 16:00:00 GMT</pubDate>
 </item>
 <item>
   <title>E2bird: Enhanced Elastic Batch for Improving Responsiveness and Throughput of Deep Learning Services</title>
   <dc:creator>&lt;b&gt;Weihao Cui&lt;/b&gt;, Quan Chen, Han Zhao, Mengze Wei, Xiaoxin Tang, and Minyi Guo.</dc:creator>
-  <link>https://raphael-hao.top/publications/published/e2bird/index.html</link>
+  <link>https://raphael-hao.top/publications/published/e2bird/</link>
   <description><![CDATA[ 
 
 
@@ -200,13 +200,13 @@
 
  ]]></description>
   <category>Journal</category>
-  <guid>https://raphael-hao.top/publications/published/e2bird/index.html</guid>
+  <guid>https://raphael-hao.top/publications/published/e2bird/</guid>
   <pubDate>Sun, 27 Dec 2020 16:00:00 GMT</pubDate>
 </item>
 <item>
   <title>CODA: Improving Resource Utilization by Slimming and Co-locating DNN and CPU Jobs</title>
   <dc:creator>Han Zhao, &lt;b&gt;Weihao Cui&lt;/b&gt;, Quan Chen, Jingwen Leng, Kai Yu, Deze Zeng, Chao Li, Minyi Guo.</dc:creator>
-  <link>https://raphael-hao.top/publications/published/coda/index.html</link>
+  <link>https://raphael-hao.top/publications/published/coda/</link>
   <description><![CDATA[ 
 
 
@@ -216,13 +216,13 @@
 
  ]]></description>
   <category>Conference</category>
-  <guid>https://raphael-hao.top/publications/published/coda/index.html</guid>
+  <guid>https://raphael-hao.top/publications/published/coda/</guid>
   <pubDate>Sat, 31 Oct 2020 16:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Ebird: Elastic Batch for Improving Responsiveness and Throughput of Deep Learning Services</title>
   <dc:creator>&lt;b&gt;Weihao Cui&lt;/b&gt;, Mengze Wei, Quan Chen, Xiaoxin Tang, Jingwen Leng, Li Li, Mingyi Guo.</dc:creator>
-  <link>https://raphael-hao.top/publications/published/ebird/index.html</link>
+  <link>https://raphael-hao.top/publications/published/ebird/</link>
   <description><![CDATA[ 
 
 
@@ -232,13 +232,13 @@
 
  ]]></description>
   <category>Conference</category>
-  <guid>https://raphael-hao.top/publications/published/ebird/index.html</guid>
+  <guid>https://raphael-hao.top/publications/published/ebird/</guid>
   <pubDate>Sat, 16 Nov 2019 16:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Laius: Towards Latency Awareness and Improved Utilization of Spatial Multitasking Accelerators in Datacenters</title>
   <dc:creator>Wei Zhang, &lt;b&gt;Weihao Cui&lt;/b&gt;, Kaihua Fu, Quan Chen, Daniel Edward Mawhirter, Bo Wu, Chao Li, Minyi Guo.</dc:creator>
-  <link>https://raphael-hao.top/publications/published/laius/index.html</link>
+  <link>https://raphael-hao.top/publications/published/laius/</link>
   <description><![CDATA[ 
 
 
@@ -248,7 +248,7 @@
 
  ]]></description>
   <category>Conference</category>
-  <guid>https://raphael-hao.top/publications/published/laius/index.html</guid>
+  <guid>https://raphael-hao.top/publications/published/laius/</guid>
   <pubDate>Tue, 25 Jun 2019 16:00:00 GMT</pubDate>
 </item>
 </channel>

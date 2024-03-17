@@ -1,31 +1,10 @@
 [
   {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
-    "title": "Advanced Chemistry",
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Publications",
     "section": "",
-    "text": "Advanced Chemistry\nBlah blah\n\n\n\nAdvanced Physics\nDon’t forget to bring your lab coats"
-  },
-  {
-    "objectID": "talks/french_academy_1901.html",
-    "href": "talks/french_academy_1901.html",
-    "title": "Adventures with Uranium Rays",
-    "section": "",
-    "text": "Abstract here\n\nSlides\nembed html or pdf slides here\n\n\nVideo"
-  },
-  {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Projects"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Weihao Cui",
-    "section": "",
-    "text": "Weihao Cui\nCurrently, I am a postdoc research fellow working with Prof. Bingsheng He and Prof. Minyi Guo. I am jointly supported by the National University of Singapore and Shanghai Jiao Tong University. I work closely with Prof. Quan Chen and Dr. Han Zhao.\nI obtained my Ph.D. degree at Department of Computer Science and Engineering (CSE), Shanghai Jiao Tong University, China, supervised by Prof. Quan Chen on AI System and Cloud Computing.\n\n\nResearch Interest\n\nSystem for Machine Learning\nResource Management of GPU\nHigh Performance Computing\n\n\n\nEducation\n\nSept 2017 - Mar 2020 Ph.D. in Computer Science and Technology Advisor: Prof. Quan Chen Shanghai Jiao Tong University, China\nSept 2020 - Sept 2023 Master in Computer Science and Technology Advisor: Prof. Quan Chen Shanghai Jiao Tong University, China\n\n\n\nAffiliation\n\nXtra Computing Group National University of Singapore Singapore\nEmerging Parallel Computing Center Shanghai Jiao Tong University Shanghai, China"
+    "text": "Curriculum Vitae         Google Scholar"
   },
   {
     "objectID": "about/index.html",
@@ -35,24 +14,17 @@
     "text": "About me\nSome more detail about who I am and what I do."
   },
   {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "SystemSight",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Weihao Cui",
     "section": "",
-    "text": "Thoughts on system research.\n  \n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
+    "text": "Weihao Cui\nCurrently, I am a postdoc research fellow working with Prof. Bingsheng He and Prof. Minyi Guo. I am jointly supported by the National University of Singapore and Shanghai Jiao Tong University. I work closely with Prof. Quan Chen and Dr. Han Zhao.\nI obtained my Ph.D. degree at Department of Computer Science and Engineering (CSE), Shanghai Jiao Tong University, China, supervised by Prof. Quan Chen on AI System and Cloud Computing.\n\n\nResearch Interest\n\nSystem for Machine Learning\nResource Management of GPU\nHigh Performance Computing\n\n\n\nEducation\n\nSept 2020 - Sept 2023 Ph.D. in Computer Science and Technology Advisor: Prof. Quan Chen Shanghai Jiao Tong University, China\nSept 2017 - Mar 2020 Master in Computer Science and Technology Advisor: Prof. Quan Chen Shanghai Jiao Tong University, China\n\n\n\nAffiliation\n\nXtra Computing Group National University of Singapore Singapore\nEmerging Parallel Computing Center Shanghai Jiao Tong University Shanghai, China"
   },
   {
-    "objectID": "publications/index.html",
-    "href": "publications/index.html",
-    "title": "Publications",
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
     "section": "",
-    "text": "Curriculum Vitae         Google Scholar"
-  },
-  {
-    "objectID": "talks/index.html",
-    "href": "talks/index.html",
-    "title": "Talks I’ve given",
-    "section": "",
-    "text": "Talks I’ve given\n\n\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nVenue\n\n\n\n\n\n\n30 Jun 1901\n\n\nAdventures with Uranium Rays\n\n\nFrench Academy, Paris\n\n\n\n\n\n\nNo matching items"
+    "text": "Projects"
   }
 ]
